@@ -5,8 +5,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300 ;
-    color: #ffffff;
-    background-color: #010059;
+    color: hsl(0, 0%, 100%);
+    background-color: #010030; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, #010030, #0200bf) no-repeat;
 }
 
 /* headings and logo */
