@@ -69,13 +69,11 @@ h1,h2 {
 /* Main Image and Explore Button */
 
 #home-main {
-    height: 900px;
+    height: 1050px;
     width: 100%;
     overflow: hidden;
     
     position: relative;
-
-
 
 }
 #main-image {
@@ -84,13 +82,13 @@ h1,h2 {
     background: url(../images/logo-main.png) no-repeat center center;
     
     /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
+    animation-name: logo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
  /* creates the level of zoom for main image */
- @keyframes hero-zoom {
+ @keyframes logo-zoom {
      from{
          transform: scale(1);
 
@@ -99,6 +97,20 @@ h1,h2 {
          transform: scale(1.1);
      }
  }
+  /* Explore Button */
+
+  .explore-button {
+      text-align: center;
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      border: 2px solid #ffffff;
+      font-size: 110%;
+      cursor: pointer;
+      background-color: #b99f08;
+      padding: 15px 32px;
+  }
+  
 
  /* footer */
 
