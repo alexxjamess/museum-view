@@ -59,16 +59,17 @@ h1,h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ffffff;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a; 
+    border-bottom: 1px solid #ffffff
+    ; 
 }
 
 /* Main Image and Explore Button */
 
 #home-main {
-    height: 600px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
     
@@ -78,7 +79,7 @@ h1,h2 {
 
 }
 #main-image {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background: url(../images/logo-main.png) no-repeat center center;
     
@@ -98,3 +99,27 @@ h1,h2 {
          transform: scale(1.1);
      }
  }
+
+ /* footer */
+
+footer {
+    height:150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
+
+
+}
+ 
