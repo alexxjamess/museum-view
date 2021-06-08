@@ -104,13 +104,22 @@ h1,h2 {
       display: inline-block;
       color: #ffffff;
       text-decoration: none;
-      border: 2px solid #ffffff;
+      border:2px solid #ffffff;
       font-size: 110%;
+      border-radius: 15px;
       cursor: pointer;
       background-color: #b99f08;
       padding: 15px 32px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      text-transform: uppercase;
   }
   
+.explore-button:hover {background-color: #b99f08}
+
+.explore-button:active {
+  background-color: #b99f08;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 
  /* footer */
 
