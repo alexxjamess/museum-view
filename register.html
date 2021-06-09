@@ -30,8 +30,44 @@
                
             </ul>
         </nav>
-        <Section>
-            Register Interest Form 
+        <Section id="register-form">
+            <h2>Register Your Interest</h2> 
+            <form  method="post" action="https://formdump.codeinstitute.net/">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" list="titles" >
+                <datalist id="titles">
+                     <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Other">Other</option>
+                </datalist>
+                <label for="fname">First Name:</label>
+                <input required type="text" id="fname" name="fname">
+                <label for="lname">Last Name:</label>
+                <input required type="text" id="lname" name="lname">
+                <label for="email">Email Address:</label>
+                <input required type="email" id="email" name="email" >
+                <label for="renting">Renting</label>
+                <input id="renting" value="renting" name="interest" type="radio">
+                <label for="buying">Buying</label>
+                <input id="buying" value="buying" name="interest" type="radio">
+                <label for="current-position">Current Position:</label>
+                <input type="text" id="current-position" name="cur-pos" list="positions" >
+                <datalist id="positions">
+                     <option value="First Time Buyer">First Time Buyer</option>
+                    <option value="Moving Home">Moving Home</option>
+                    <option value="Investor">Investor</option>
+                    <option value="Prefer Not to Say">Prefer Not to Say</option>
+                </datalist>
+                <input  required type="checkbox" id="agree" name="agree" value="agree">
+                <label for="agree">Agree to Terms and Conditions</label>
+                <input  type="checkbox" id="update" name="update" value="update">
+                <label for="update">I would like to be kept updated with progress</label>
+                <button type="sumbit" value="Register">Register</button>
+
+            </form>
         </Section>
         <footer>
             <ul class="social-networks">
