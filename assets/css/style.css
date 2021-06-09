@@ -16,7 +16,7 @@ body {
     font-weight: 300 ;
     color: hsl(0, 0%, 100%);
     background-color: #010030; /* For browsers that do not support gradients */
-    background-image: linear-gradient(180deg, #010030, #0200bf);
+    background-image: linear-gradient(180deg, #000016, #030247, #000016);
     background-repeat: no-repeat ;
     margin:0
 }
@@ -26,7 +26,7 @@ h1,h2 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ceb65f;
+    color: #977702;
 
 }
 #logo {
@@ -99,28 +99,29 @@ h1,h2 {
  }
   /* Explore Button */
 
-  .explore-button {
+.explore-button {
       text-align: center;
-      display: inline-block;
+      display: inline;
+      position: relative;
       color: #ffffff;
       text-decoration: none;
       border:2px solid #ffffff;
       font-size: 110%;
       border-radius: 15px;
       cursor: pointer;
-      background-color: #b99f08;
+      background-color: #977702;
       padding: 15px 32px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       text-transform: uppercase;
   }
   
-.explore-button:hover {background-color: #b99f08}
+.explore-button:hover {background-color: #cea307}
 
 .explore-button:active {
-  background-color: #b99f08;
+  background-color:#977702;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-
+}
  /* footer */
 
 footer {
@@ -129,17 +130,22 @@ footer {
 
 .social-networks {
     text-align: center;
+    float: right;
+
 
 }
 .social-networks > li {
-    display: inline;
+    display: inline-block;
+    margin: 5px;
+    padding:5px;
+
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #ffffff;
+    margin: 5%;
+    padding: 15%;
+    color: #977702;
 
 
 }
