@@ -128,7 +128,6 @@ h1,h2 {
 
 footer {
     height:150px;
-    position: fixed;
     bottom: 0;
     right:0;
 }
@@ -165,23 +164,20 @@ footer {
     max-height: 400px;
     max-width: 600px;
     float: left;
-    clear: both;
     text-align: center;
     margin: 2.5%;
     width: 50%;
+    padding: 10px;
 }
 /* Video */
 
 #explore-video {
     max-height: 400px;
     max-width: 600px;
-    float: right;
-    clear:both;
+    float: left;
     margin: 2.5%;
-    width: 50%
-
-
-    
+    width: 50%;
+    padding: 10px;
     ;
 }
 
@@ -191,25 +187,34 @@ footer {
 
 }
 /* Features */
-#exlore-features {
+#explore-features {
     height:300px;
+        
 
+}
+#explore-features h2 {
+    font-size: 100px;
+    text-align: center;
+}
+
+#explore-features h3, p {
+    text-align: center;
 }
 
 #feature-one {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
-    float:left;
+    float: left;
 }
 
 #feature-three {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 }
 
 #feature-two {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
