@@ -70,7 +70,7 @@ h1,h2 {
 /* Main Image and Explore Button */
 
 #home-main {
-    height: 1050px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     
@@ -100,10 +100,12 @@ h1,h2 {
  }
   /* Explore Button */
 
+  #explore-button {
+      height: 75px;
+  }
+
 .explore-button {
       text-align: center;
-      display: inline;
-      position: relative;
       color: #ffffff;
       text-decoration: none;
       border:2px solid #ffffff;
@@ -114,7 +116,9 @@ h1,h2 {
       padding: 15px 32px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       text-transform: uppercase;
-     
+      position: relative;
+      left: 50%;
+           
   }
   
 .explore-button:hover {background-color: #cea307}
@@ -197,8 +201,17 @@ footer {
     text-align: center;
 }
 
-#explore-features h3, p {
-    text-align: center;
+#explore-features h3 {
+        text-align: center;
+
+}
+
+#explore-features p {
+    text-align: center justify;
+    padding: 5px;
+    width: 33%;
+    margin-left: 33%;
+
 }
 
 #feature-one {
