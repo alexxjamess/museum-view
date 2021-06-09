@@ -114,6 +114,7 @@ h1,h2 {
       padding: 15px 32px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       text-transform: uppercase;
+     
   }
   
 .explore-button:hover {background-color: #cea307}
@@ -154,3 +155,61 @@ footer {
 
 }
  
+/* Explore Page */
+
+#explore-main {
+    height:600px
+}
+
+#explore-text {
+    max-height: 400px;
+    max-width: 600px;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin: 2.5%;
+    width: 50%;
+}
+/* Video */
+
+#explore-video {
+    max-height: 400px;
+    max-width: 600px;
+    float: right;
+    clear:both;
+    margin: 2.5%;
+    width: 50%
+
+
+    
+    ;
+}
+
+.vid-tour {
+    max-height: 400px;
+    max-width: 600px;
+
+}
+/* Features */
+#exlore-features {
+    height:300px;
+
+}
+
+#feature-one {
+    padding: 30px;
+    width: 33%;
+    float:left;
+}
+
+#feature-three {
+    padding: 30px;
+    width: 33%;
+    float: right;
+}
+
+#feature-two {
+    padding: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
