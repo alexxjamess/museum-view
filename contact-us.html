@@ -30,9 +30,43 @@
                
             </ul>
         </nav>
+    </header>
         <section>
-            Contact Form 
+           
+           <div id="contact-form">
+                <h2>Contact Form </h2> 
+                <form  method="post" action="https://formdump.codeinstitute.net/">
+                <label for="title">Title:</label>
+                <input type="text" class="form-input" id="title" name="title" list="titles" >
+                <datalist id="titles">
+                     <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Other">Other</option>
+                </datalist>
+                
+                <label for="fname">First Name:</label>
+                <input required class="form-input" type="text" id="fname" name="fname">
+                
+                <label for="lname">Last Name:</label>
+                <input  required  class="form-input" type="text" id="lname" name="lname">
+                
+                <label for="email">Email Address:</label>
+                <input required class="form-input" type="email" id="email" name="email" >
+                
+                <label for="contact">Contact No:</label>
+                <input required  class="form-input" type="tel" id="tel" name="tel" maxlength="12" >
+
+
+           </form>
+           </div>
         </section>
+        <section id="map-contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.5345333419905!2d-3.1780248842308616!3d51.48505767963152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb984556e45%3A0x81ab0e29b37b42df!2s21%20Park%20Pl%2C%20Cardiff%20CF10%203DQ!5e0!3m2!1sen!2suk!4v1623321223985!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
         <footer>
             <ul class="social-networks">
                 <li>
