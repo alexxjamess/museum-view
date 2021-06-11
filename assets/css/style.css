@@ -73,7 +73,7 @@ h1,h2 {
 /* Main Image and Explore Button */
 
 #home-main {
-    height: 800px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
     left: auto;
@@ -81,7 +81,7 @@ h1,h2 {
 
 }
 #main-image {
-    height: 900px;
+    height: 750px;
     width: 100%;
     background: url(../images/logo-main.png) no-repeat center center;
     text-align: center;
@@ -103,6 +103,11 @@ h1,h2 {
          transform: scale(1.1);
      }
  }
+   /* Tagline */
+
+   #tagline {
+       text-align: center;
+   }
   /* Explore Button */
 
   #explore-button {
@@ -136,9 +141,15 @@ h1,h2 {
  /* footer */
 
 footer {
-    height:150px;
+    height:75px;
     bottom: 0;
     right:0;
+}
+.copyright {
+    float: left;
+    color:#977702;
+    padding: 10px;
+    
 }
 
 .social-networks {
@@ -150,7 +161,7 @@ footer {
 .social-networks > li {
     display: inline-block;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 
 }
 
