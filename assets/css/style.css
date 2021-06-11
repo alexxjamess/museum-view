@@ -19,6 +19,7 @@ body {
     background-image: linear-gradient(180deg, #000016, #030247, #000016);
     background-repeat: no-repeat ;
     background-attachment: fixed;
+    max-width: 1200px;
    
 }
 
