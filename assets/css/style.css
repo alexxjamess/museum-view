@@ -155,6 +155,8 @@ footer {
 .social-networks {
     text-align: center;
     float: right;
+    bottom: 0;
+    right:0;
 
 
 }
@@ -228,27 +230,26 @@ footer {
 }
 
 #explore-features p {
-    text-align: center justify;
-    padding: 5px;
+    
     width: 33%;
-    margin-left: 33%;
+    display: inline;
 
 }
 
 #feature-one {
-    padding-top: 30px;
+    padding: 30px;
     width: 33%;
     float: left;
 }
 
 #feature-three {
-    padding-top: 30px;
+    padding: 30px;
     width: 33%;
     float: right;
 }
 
 #feature-two {
-    padding-top: 30px;
+    padding: 30px;
     width: 33%;
     margin: 0 auto;
 }
@@ -363,7 +364,11 @@ footer {
         margin: 0px 0 10px 10px;
     }
     
-
+#contact-details {
+    border: 2px solid #977702;
+    float:right;
+   
+}
 
 
 #image-street {
@@ -382,6 +387,11 @@ footer {
   #map-image {
     height: 300px;
     width: 100%;
-    
 
+  }
+
+  /* Gallery Page */
+
+  #gallery {
+      margin: 30px;
   }
