@@ -248,33 +248,31 @@ footer {
 /* Register Form */
 
 #register-main {
-        
-        height: 900px;
-
+    display: flex;
 }
+
+
 #register-form {
     
         
-        color: #fff;
+        width: 420px;
+        padding: 10px;
         border: 2px solid #977702;
-        max-width:400px;
-        position: relative;
-        left:10%;
-        padding: 30px;
-        float: left;
+        margin: 10px;        
 
 }
 #register-form h2 {
          margin-bottom: 20px;
 }
 .form-input {
-    background:transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
+   
+    color: #050505;
+    width: 400px;
     margin:5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius:2px;
+    border: 2px solid #977702;
+    display: flex;
+    padding: 10px;
+    
 }
 .form-input:hover {
     border-color: #977702;
@@ -306,19 +304,15 @@ footer {
     transform: translateY(4px);
   }
 
-  #cardiff-steet-register ul{
-      width: 600px;
-      height: 400px;
-      float: right;
-  }
-  #cardiff-steet-register img {
-    width: 600px;
-    height: 400px;
-    float: right;
+
+  #cardiff-street-register img {
+    max-width: 800px;
+    margin: 10px;
+    
 }
 
   #register-benefits {
-      float: right;
+      display: flex;
       list-style-type: square;
       padding: 10px;
 
