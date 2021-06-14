@@ -263,13 +263,15 @@ footer {
 }
 #register-form {
     
-        margin: 0 10% 0 0 ;
+        
         color: #fff;
         border: 2px solid #977702;
         max-width:400px;
-        position: absolute;
+        position: relative;
         left:10%;
         padding: 30px;
+        float: left;
+        
 }
 #register-form h2 {
          margin-bottom: 20px;
@@ -312,6 +314,29 @@ footer {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  #cardiff-steet-register ul{
+      width: 600px;
+      height: 400px;
+      float: right;
+  }
+  #cardiff-steet-register img {
+    width: 600px;
+    height: 400px;
+    float: right;
+}
+
+  #register-benefits {
+      float: right;
+      list-style-type: square;
+      padding: 10px;
+
+  }
+
+  #register-benefits li {
+    font-size: larger;
+  }
+   
   /* Contact Form */
 
   #contact-main {
