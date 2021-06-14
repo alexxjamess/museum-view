@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat ;
     background-attachment: fixed;
     max-width: 1200px;
+    margin: auto;
    
 }
 
@@ -28,7 +29,7 @@ h1,h2 {
     font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #977702;
+    color: #ffffff;
 
 }
 #logo {
@@ -73,13 +74,9 @@ h1,h2 {
 /* Main Image and Explore Button */
 
 #home-main {
-    height: 900px;
     width: 100%;
-    overflow: hidden;
-    left: auto;
-    position: relative;
+    }
 
-}
 #main-image {
     height: 750px;
     width: 100%;
@@ -107,11 +104,13 @@ h1,h2 {
 
    #tagline {
        text-align: center;
+       padding: 25px;
    }
   /* Explore Button */
 
   #explore-button {
-      height: 75px;
+      padding: 33px;
+      text-align: center;
   }
 
 .explore-button {
@@ -126,12 +125,16 @@ h1,h2 {
       padding: 15px 32px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
       text-transform: uppercase;
-      position: relative;
-      left: 50%;
+     
+      
            
   }
   
-.explore-button:hover {background-color: #cea307}
+.explore-button:hover {
+    background-color: #cea307;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .explore-button:active {
   background-color:#977702;
@@ -141,12 +144,13 @@ h1,h2 {
  /* footer */
 
 footer {
-    height:75px;
+    
     bottom: 0;
     right:0;
+    padding: 30px;
 }
 .copyright {
-    color:#977702;
+    color:#ffffff;
     text-align: center;
     
 }
@@ -166,7 +170,7 @@ footer {
     font-size: 160%;
     margin: 5%;
     padding: 15%;
-    color: #977702;
+    color: #ffffff;
 
 
 }
@@ -271,7 +275,7 @@ footer {
         left:10%;
         padding: 30px;
         float: left;
-        
+
 }
 #register-form h2 {
          margin-bottom: 20px;
