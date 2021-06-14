@@ -154,8 +154,6 @@ footer {
 .social-networks {
     text-align: center;
     
-
-
 }
 .social-networks > li {
     display: inline-block;
@@ -176,7 +174,7 @@ footer {
 /* Explore Page */
 
 #explore-main {
-    height:600px
+    height:450px
 }
 
 #explore-text {
