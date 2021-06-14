@@ -178,16 +178,12 @@ footer {
 /* Explore Page */
 
 #explore-main {
-    height:450px
+    display: flex;
 }
 
 #explore-text {
-    max-height: 400px;
-    max-width: 45%;
-    float: left;
     text-align: center;
     margin: 2.5%;
-    width: 50%;
     padding: 10px;
 }
 
@@ -197,33 +193,24 @@ footer {
 }
 
 #register-link, #drawings-link {
-    color:#977702;
+    color:#ffffff;
+    text-decoration-line: underline;
     
 
 }
 /* Video */
 
 #explore-video {
-    max-height: 400px;
-    max-width: 50%;
-    float: left;
+   
     margin-top: 2.5%;
-    width: 50%;
+    width: 100vw;
     padding: 10px;
     ;
 }
 
-.vid-tour {
-    max-height: 400px;
-    max-width: 45%;
 
-}
 /* Features */
-#explore-features {
-    height:300px;
-        
 
-}
 #explore-features h2 {
     font-size: 100px;
     text-align: center;
