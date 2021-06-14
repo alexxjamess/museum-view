@@ -370,8 +370,19 @@ footer {
 #contact-details {
     border: 2px solid #977702;
     float:right;
-    width: 300px;
+    width: 600px;
+    height: 175px;
+    margin: 0px 0 10px 10px;
    
+}
+#ced-contact {
+    float: left;
+    padding: 10px;
+
+}
+#mjb-contact {
+    float:left;
+    padding: 10px;
 }
 
 #contact-details img {
@@ -384,7 +395,8 @@ footer {
 
 #image-street {
     height:246px;
-    width: 627px;
+    width: 600px; 
+    overflow: hidden;
   
 }
 
