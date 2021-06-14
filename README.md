@@ -12,10 +12,10 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Exlpore page via the logo, Explore, Register  and Contact Us page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Exlpore page via the logo, Explore, Register and Contact Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](image of nave bar )
+<img src="./assets/images/readme-images/museum view nav bar.png.jpg" alt="navigstion bar of museum view">
 
 - __The landing page image__
 
@@ -35,10 +35,16 @@ In this section, you should go over the different parts of your project, and des
 
 - __Explore Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The explore page will give the user more information about the project and the infromation will be shown in a variety of formats.
+  - There is a small text paragraph giving a breif description of the project / sales pitch, within the paragraph there are two links one which will take the use to the register page and another which will take the user to a new page which will be a drop box page containing the plans of the project. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  <img src="assets/images/readme-images/museum view explore features.jpg" alt="museum view explore page text">
+
+  - There is also an embbeded youtube video on the page that will allow the user to watch a video of a tour of an apartment. The user will be able to watch the video while on the page or clicking the title and going to youtube and going to a new page. The video used is https://www.youtube.com/watch?v=8xML0q0-mYI&t=60, this video was used as the Musuem View video was not completed in time.
+
+  - The last section of this page will be Three features which have been created by using Font Awesome to creat larger icons followed by some text to give a brief description of the feature. The Gallery was going to follow these however. I think this may have been two much information on one page so the gallery has its own page.
+
+  <img src="assets/images/readme-images/museum view explore features.jpg" alt="museum view explore page features">
 
 - __The Sign Up Page__
 
