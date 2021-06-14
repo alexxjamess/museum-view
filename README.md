@@ -6,10 +6,6 @@ Museum View is a site that will be used to inform and register potential buyers 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
 - __Navigation Bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Exlpore page via the logo, Explore, Register and Contact Us page and is identical in each page to allow for easy navigation.
@@ -28,23 +24,29 @@ In this section, you should go over the different parts of your project, and des
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Museum View. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  -The footer also includes some standard copyright text
 
-![Footer](MUSEUM VIEW FOOTER )
+<img src="./assets/images/readme-images/museum view footer.jpg" alt="footer of museum view">
 
 
 - __Explore Page__
 
   - The explore page will give the user more information about the project and the infromation will be shown in a variety of formats.
-  - There is a small text paragraph giving a breif description of the project / sales pitch, within the paragraph there are two links one which will take the use to the register page and another which will take the user to a new page which will be a drop box page containing the plans of the project. 
+  - There is a small text paragraph giving a breif description of the project / sales pitch, within the paragraph there are two links one which will take the use to the register page and another which will take the user to a new page which will be a drop box page containing the plans of the project which should help the user easily find this information.
 
-  <img src="assets/images/readme-images/museum view explore features.jpg" alt="museum view explore page text">
+  <img src="assets/images/readme-images/museum view explore text.jpg" alt="museum view explore page text">
 
   - There is also an embbeded youtube video on the page that will allow the user to watch a video of a tour of an apartment. The user will be able to watch the video while on the page or clicking the title and going to youtube and going to a new page. The video used is https://www.youtube.com/watch?v=8xML0q0-mYI&t=60, this video was used as the Musuem View video was not completed in time.
 
   - The last section of this page will be Three features which have been created by using Font Awesome to creat larger icons followed by some text to give a brief description of the feature. The Gallery was going to follow these however. I think this may have been two much information on one page so the gallery has its own page.
 
   <img src="assets/images/readme-images/museum view explore features.jpg" alt="museum view explore page features">
+
+- __Gallery Page__
+
+  -
+  <img src="assets/images/readme-images/museum view gallery.jpg" alt="museum view gallery">
 
 - __The Sign Up Page__
 
