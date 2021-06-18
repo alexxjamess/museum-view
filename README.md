@@ -6,16 +6,12 @@ Museum View is a site that will be used to inform and register potential buyers 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Exlpore page via the logo, Explore, Register  and Contact Us page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Exlpore page via the logo, Explore, Register and Contact Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](image of nave bar )
+<img src="./assets/images/readme-images/museum-view-nav-bar.jpg" alt="navigstion bar of museum view">
 
 - __The landing page image__
 
@@ -28,53 +24,52 @@ In this section, you should go over the different parts of your project, and des
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Museum View. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  -The footer also includes some standard copyright text
 
-![Footer](MUSEUM VIEW FOOTER )
+<img src="./assets/images/readme-images/museum-view-footer.jpg" alt="footer of museum view">
 
 
 - __Explore Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The explore page will give the user more information about the project and the infromation will be shown in a variety of formats.
+  <img src="./assets/images/readme-images/museum-view-explore.jpg" alt="explore page of museum view">
+  - There is a small text paragraph giving a breif description of the project / sales pitch, within the paragraph there are two links one which will take the use to the register page and another which will take the user to a new page which will be a drop box page containing the plans of the project which should help the user easily find this information.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  <img src="assets/images/readme-images/museum-view-explore-text.jpg" alt="museum view explore page text">
 
-- __The Sign Up Page__
+  - There is also an embbeded youtube video on the page that will allow the user to watch a video of a tour of an apartment. The user will be able to watch the video while on the page or clicking the title and going to youtube and going to a new page. The video used is https://www.youtube.com/watch?v=8xML0q0-mYI&t=60, this video was used as the Musuem View video was not completed in time.
+
+  - The last section of this page will be Three features which have been created by using Font Awesome to creat larger icons followed by some text to give a brief description of the feature. The Gallery was going to follow these however. I think this may have been two much information on one page so the gallery has its own page.
+
+  <img src="assets/images/readme-images/museum-view-explore-features.jpg" alt="museum view explore page features">
+
+- __Gallery Page__
+
+  - The gallery page allows the client to see a lot of images in a small place. Due to the nature of the project being HTML and CSS only I used a bootstrap to create the carousel. I then edited the code to include my own imgaes and also added a feature to show a title and small description of the image for users to see.
+  <img src="assets/images/readme-images/museum-view-gallery.jpg" alt="museum view gallery">
+
+- __Register Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Contact Us Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+-
+
+
 
 ### Features Left to Implement
 
-- Another feature idea
+- Future Features could include a log in for approved buyers and renters to check on progress of the project and recieve relevent information and documents.
+- A general progress bar could be added to the website.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Please see testing.md for Testing
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
@@ -90,37 +85,24 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- The icons in the footer and for the features on the explore page were taken from [Font Awesome](https://fontawesome.com/)
+
+- The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
+- The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.
+
+- Museum View Logo was created by myself along with logo for contact details of developer and contractor.
+
+- The embedded video on the explore page is from [Youtube](https://www.youtube.com/watch?v=8xML0q0-mYI&t=60) this will also be replaced by the actual project video once it becomes available.
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
