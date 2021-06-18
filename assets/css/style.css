@@ -326,7 +326,7 @@ footer {
 
   #contact-main {
       width: 100%;
-      height: 900px
+      
   }
 
   #contact-form {
@@ -338,8 +338,12 @@ footer {
     left:30px;
     padding: 30px;
     float:left;
-    width: 50%;
+    
 
+  }
+
+  #contact-form input {
+      max-width: 350px;
   }
 
   #contact-form h2 {
@@ -370,17 +374,18 @@ footer {
 }
 
 #contact-image {
-        width: 50%;
-        float: right;
-        margin: 0px 0 10px 10px;
+        width: 100%;
+        margin: 0 20px 10px 30px;
     }
     
-#contact-details {
-    border: 2px solid #977702;
-    float:right;
-    width: 600px;
-    height: 175px;
-    margin: 0px 0 10px 10px;
+    #contact-details {
+        border: 2px solid #977702;
+        height: 100%;
+        margin: 0 20px 20px 30px;
+        padding: 20px;
+        display: flex;
+        width: 100%;
+    }
    
 }
 #ced-contact {
@@ -402,22 +407,24 @@ footer {
 
 
 #image-street {
-    height:246px;
-    width: 600px; 
-    overflow: hidden;
+    
+    width: 100%;
+    margin-top: 30px;
+    
   
 }
 
 /* Contact us Form Map */
 
   #map-contact {
-      height: 300px;
+     
       width: 100%;
       margin: 30px;
   }
   #map-image {
     height: 300px;
     width: 100%;
+    padding-top: 50px;
 
   }
 
