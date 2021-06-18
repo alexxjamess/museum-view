@@ -91,19 +91,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 
 - The icons in the footer and for the features on the explore page were taken from [Font Awesome](https://fontawesome.com/)
-<<<<<<< HEAD
-
-- The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
-- The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
-
-### Media
-
-- The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.
-
-- Museum View Logo was created by myself along with logo for contact details of developer and contractor.
-
-- The embedded video on the explore page is from [Youtube](https://www.youtube.com/watch?v=8xML0q0-mYI&t=60) this will also be replaced by the actual project video once it becomes available.
-=======
 
 - The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
 - The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
@@ -116,7 +103,17 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 - The embedded video on the explore page is from [Youtube](https://www.youtube.com/watch?v=8xML0q0-mYI&t=60) this will also be replaced by the actual project video once it becomes available.
 
->>>>>>> 919ca32d67a2dd9ba54c4c2af003f201f1b42b00
+- The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
+- The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
+
+### Media
+
+- The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.
+
+- Museum View Logo was created by myself along with logo for contact details of developer and contractor.
+
+- The embedded video on the explore page is from [Youtube](https://www.youtube.com/watch?v=8xML0q0-mYI&t=60) this will also be replaced by the actual project video once it becomes available.
+
 
 
 
