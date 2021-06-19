@@ -262,7 +262,7 @@ footer {
         width: 420px;
         padding: 10px;
         border: 2px solid #977702;
-        margin: 10px;        
+        margin: 30px;        
 
 }
 #register-form h2 {
@@ -308,22 +308,24 @@ footer {
     transform: translateY(4px);
   }
 
-
+  #register-extra {
+      display: flex;
+      flex-direction: column;
+  }
   #cardiff-street-register img {
-    max-width: 800px;
-    margin: 10px;
+    max-width: 100%;
+    margin: 30px;
     
 }
 
   #register-benefits {
-      display: flex;
       list-style-type: square;
-      padding: 10px;
+      padding: 30px;
 
   }
 
-  #register-benefits li {
-    font-size: larger;
+  #register-benefits ul {
+    font-size: x-large;
   }
    
   /* Contact Form */
@@ -441,3 +443,8 @@ footer {
   .carousel-caption  {
     background: #6c757d7a;
   }
+
+  /* Media Queries */
+
+ 
+   
