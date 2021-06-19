@@ -20,10 +20,14 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 - HTML - Explore
- - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). . 
+ - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The following errors were shown . 
   <img src="assets/images/readme-images/test1-explore.jpg" alt="image of issues in html explore page">
   - On test 2 all issuues were recitifed other than those shown below, the error states that there is nothing in the heading however there is a font awesome text item which the validator isnt recognising.  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   <img src="assets/images/readme-images/test2-explore.jpg" alt="image of remaining issues in html explore page">
+
+  HTML - Gallery
+  After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html).There were no errors found.
+
 
 ### Unfixed Bugs
 
