@@ -19,7 +19,7 @@ Museum View is a site that will be used to inform and register potential buyers 
   - This section will contain a button which states 'explore' to take users to the explore page. This will help give the feeling of exclusivity when entering the website.
   - This section will contain an aniamtion of the logo zooming into to draw attention from the user and enhance the brand futher.
 
-![Landing Page](image of landing page)
+<img src="./assets/images/readme-images/museum-view-home-page.jpg" alt="Museum View Home Page">
 
 - __The Footer__ 
 
@@ -51,7 +51,7 @@ Museum View is a site that will be used to inform and register potential buyers 
 
 - __Register Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to register if they would like to express interest in buying or renting a property it will also allow the business gather information to see how desirable the properties are and can help use the figures to negotiate with other suppliers. 
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -80,7 +80,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - 
 
 
 ## Credits 
@@ -94,7 +94,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 - The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
 - The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
-
+- the animated zoom was based of previous work completed on the love running project.
 ### Media
 
 - The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.
@@ -106,13 +106,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
 - The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
 
-### Media
 
-- The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.
-
-- Museum View Logo was created by myself along with logo for contact details of developer and contractor.
-
-- The embedded video on the explore page is from [Youtube](https://www.youtube.com/watch?v=8xML0q0-mYI&t=60) this will also be replaced by the actual project video once it becomes available.
 
 
 
