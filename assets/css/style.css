@@ -437,3 +437,7 @@ footer {
   #gallery {
       margin: 30px;
   }
+
+  .carousel-caption  {
+    background: #6c757d7a;
+  }

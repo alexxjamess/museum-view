@@ -2,6 +2,8 @@
 
 Museum View is a site that will be used to inform and register potential buyers and renter for a new development of 16 Luxury apartments located in Cardiff City Centre. The website will provide information regarding the project in the form of text, video and images and will allow clients to register their interest or contact the developers if they have any questions. Plans to develop the webiste futher to allow confirmed buyers and renters to track the progress of the project and get infromations and important dates.
 
+The user will enter the website if looking to find information on project or if they would like to register their interest in the project and would like to buy or rent one of the properties they can do this easilly by completing a short form which is titled register interest.
+
 ![Responsice Mockup]( Museum View Pages Image on Multiple Devices)
 
 ## Features 
@@ -53,7 +55,7 @@ Museum View is a site that will be used to inform and register potential buyers 
 
   - This page will allow the user to register if they would like to express interest in buying or renting a property it will also allow the business gather information to see how desirable the properties are and can help use the figures to negotiate with other suppliers. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
 
 - __Contact Us Page__
 
@@ -68,7 +70,7 @@ Museum View is a site that will be used to inform and register potential buyers 
 
 ## Testing 
 
-Please see testing.md for Testing
+Please see [testing.md](/testing.md) for Testing
 
 
 ## Deployment
