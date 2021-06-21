@@ -53,7 +53,7 @@ The user will enter the website if looking to find information on project or if 
 
 - __Register Page__
 
-  - This page will allow the user to register if they would like to express interest in buying or renting a property it will also allow the business gather information to see how desirable the properties are and can help use the figures to negotiate with other suppliers. 
+  - This page will allow the user to register if they would like to express interest in buying or renting a property it will also allow the business gather information to see how desirable the properties are and can help use the figures to negotiate with other suppliers.  The Page containt a form to gather the information, an image and some benefits of the project to help prompt the user fill in the form if they have any doubts.
 
 
 
