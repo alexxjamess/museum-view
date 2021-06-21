@@ -332,18 +332,18 @@ footer {
 
   #contact-main {
       width: 100%;
+      display: flex;
+      flex-direction:row ;
       
   }
 
   #contact-form {
-    margin: 0 10px 0 0 ;
+    margin: 30px ;
     color: #fff;
     border: 2px solid #977702;
     max-width:400px;
-    position: relative;
-    left:30px;
     padding: 30px;
-    float:left;
+    
     
 
   }
@@ -379,18 +379,22 @@ footer {
     transform: translateY(4px);
 }
 
+#contact-extra {
+    display: flex;
+    flex-direction: column;
+}
 #contact-image {
         width: 100%;
-        margin: 0 20px 10px 30px;
+        margin: 20px 20px 20px 30px;
     }
     
     #contact-details {
         border: 2px solid #977702;
-        height: 100%;
         margin: 0 20px 20px 30px;
         padding: 20px;
         display: flex;
         width: 100%;
+        justify-content: space-around;
     }
    
 
@@ -418,6 +422,10 @@ footer {
     margin-top: 30px;
     
   
+}
+#image-street-two {
+width: 100%;
+margin: 0 20px 10px 30px;
 }
 
 /* Contact us Form Map */
