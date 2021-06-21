@@ -97,6 +97,7 @@ The live link can be found here - https://alexxjamess.github.io/museum-view/
 - The bootstrap for the carousel was from [get boot strap](https://getbootstrap.com/docs/4.0/components/carousel/)
 - The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
 - the animated zoom was based of previous work completed on the love running project.
+- The bullet points on the register page where based on a video found on [Youtube](https://www.youtube.com/watch?v=w7xKQ63DnDk)
 ### Media
 
 - The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.

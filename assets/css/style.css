@@ -319,15 +319,18 @@ footer {
 }
 
   #register-benefits {
-      list-style-type: square;
+      
       padding: 30px;
 
   }
 
   #register-benefits ul {
     font-size: x-large;
+    list-style-image: url(/assets/images/logo-main-bullet.png) ;
+    padding: 30px;
   }
-   
+ 
+
   /* Contact Form */
 
   #contact-main {
