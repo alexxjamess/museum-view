@@ -357,15 +357,15 @@ display: flex;
     margin: 30px ;
     color: #fff;
     border: 2px solid #977702;
-    max-width:400px;
-    padding: 30px;
+    width:400px;
+    padding: 10px;
     
     
 
   }
 
   #contact-form input {
-      max-width: 350px;
+      width: 380px;
   }
 
   #contact-form h2 {
@@ -411,16 +411,17 @@ display: flex;
         display: flex;
         width: 100%;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
    
 
 #ced-contact {
-    float: left;
+    
     padding: 10px;
 
 }
 #mjb-contact {
-    float:left;
+    
     padding: 10px;
 }
 
@@ -504,6 +505,8 @@ margin: 0 20px 10px 30px;
     display: flex;
     flex-direction: column;
 }
+#contact-form {
+    margin: 0 auto; }
 }
 
 
@@ -512,5 +515,8 @@ margin: 0 20px 10px 30px;
 #register-form {
     margin: 10px 5px 0 30px ;
     
+}
+#contact-form {
+    margin: 10px 5px 0 30px ;
 }
 }
