@@ -195,13 +195,14 @@ footer {
 
 #explore-text {
     text-align: center;
-    margin: 2.5%;
+    margin: 30px;
     padding: 10px;
 }
 
 #explore-text p {
     font-size: large;
     text-align:justify;
+    padding: 10px;
 }
 
 #register-link, #drawings-link {
@@ -223,6 +224,10 @@ footer {
 
 /* Features */
 
+#explore-features {
+display: flex;
+}
+
 #explore-features h2 {
     font-size: 100px;
     text-align: center;
@@ -243,20 +248,17 @@ footer {
 
 #feature-one {
     padding: 30px;
-    width: 33%;
-    float: left;
+    
 }
 
 #feature-three {
     padding: 30px;
-    width: 33%;
-    float: right;
+    
 }
 
 #feature-two {
     padding: 30px;
-    width: 33%;
-    margin: 0 auto;
+    
 }
 /* Register Form */
 
