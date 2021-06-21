@@ -365,7 +365,7 @@ display: flex;
   }
 
   #contact-form input {
-      width: 380px;
+      width: 38git 0px;
   }
 
   #contact-form h2 {
@@ -518,5 +518,9 @@ margin: 0 20px 10px 30px;
 }
 #contact-form {
     margin: 10px 5px 0 30px ;
+}
+#cardiff-street-register img {
+    max-width: 400px;
+    margin: 30px;
 }
 }
