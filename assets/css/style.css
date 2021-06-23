@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap");
 
 * {
     margin: 0;
@@ -6,23 +6,20 @@
     border: none;
 }
 header {
-   
-    width:100%;
+    width: 100%;
     display: flex;
-    
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300 ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     color: hsl(0, 0%, 100%);
     background-color: #010030; /* For browsers that do not support gradients */
     background-image: linear-gradient(180deg, #000016, #004793, #000016);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     max-width: 1200px;
     margin: auto;
-   
 }
 
 main {
@@ -30,19 +27,17 @@ main {
 }
 
 /* headings and logo */
-h1,h2 {
-    font-family: 'PT Sans Narrow', sans-serif;
+h1,
+h2 {
+    font-family: "PT Sans Narrow", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
-
 }
 #logo {
-    
     width: 400px;
-   
-    margin-top: 20px;
 
+    margin-top: 20px;
 }
 nav {
     display: flex;
@@ -57,91 +52,79 @@ nav {
     line-height: 40px;
 }
 
-
 #menu li {
-    
     list-style-type: none;
     margin-top: 25px;
     margin-right: 30px;
-  
-
 }
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
     border-bottom: 1px solid #ffffff;
 }
 .active {
-    border-bottom: 1px solid #ffffff
-    ; 
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Main Image and Explore Button */
 
 #home-main {
     width: 100%;
-    }
+}
 
 #main-image {
-   
     width: 100%;
 }
 .museum-view-main-image {
     text-align: center;
-    width:100%;
+    width: 100%;
     padding: 30px;
 
-    
     /* animates zoom effect on loading page */
     animation-name: logo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
- /* creates the level of zoom for main image */
- @keyframes logo-zoom {
-     from{
-         transform: scale(1);
+/* creates the level of zoom for main image */
+@keyframes logo-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+/* Tagline */
 
-     }
-     to{
-         transform: scale(1.1);
-     }
- }
-   /* Tagline */
+#tagline {
+    text-align: center;
+    padding: 25px;
+}
+/* Explore Button */
 
-   #tagline {
-       text-align: center;
-       padding: 25px;
-   }
-  /* Explore Button */
-
-  #explore-button {
-      padding: 33px;
-      text-align: center;
-  }
+#explore-button {
+    padding: 33px;
+    text-align: center;
+}
 
 .explore-button {
-      text-align: center;
-      color: #ffffff;
-      text-decoration: none;
-      border:2px solid #ffffff;
-      font-size: 110%;
-      border-radius: 15px;
-      cursor: pointer;
-      background-color: #977702;
-      padding: 15px 32px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      text-transform: uppercase;
-     
-      
-           
-  }
-  
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    font-size: 110%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #977702;
+    padding: 15px 32px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-transform: uppercase;
+}
+
 .explore-button:hover {
     background-color: #cea307;
     color: #ffffff;
@@ -149,33 +132,29 @@ nav {
 }
 
 .explore-button:active {
-  background-color:#977702;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: #977702;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
- /* footer */
+/* footer */
 
 footer {
-    
     bottom: 0;
-    right:0;
+    right: 0;
     padding: 30px;
 }
 .copyright {
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
-    
 }
 
 .social-networks {
     text-align: center;
-    
 }
 .social-networks > li {
     display: inline-block;
     margin: 5px;
     padding: 10px;
-
 }
 
 .social-networks i {
@@ -183,10 +162,8 @@ footer {
     margin: 5%;
     padding: 15%;
     color: #ffffff;
-
-
 }
- 
+
 /* Explore Page */
 
 #explore-main {
@@ -201,64 +178,54 @@ footer {
 
 #explore-text p {
     font-size: large;
-    text-align:justify;
+    text-align: justify;
     padding: 10px;
 }
 
-#register-link, #drawings-link {
-    color:#ffffff;
+#register-link,
+#drawings-link {
+    color: #ffffff;
     text-decoration-line: underline;
-    
-
 }
 /* Video */
 
 #explore-video {
-   
     margin-top: 2.5%;
     width: 100vw;
     padding: 10px;
-    ;
 }
-
 
 /* Features */
 
 #explore-features {
-display: flex;
+    display: flex;
 }
 
 #explore-features h2 {
     font-size: 100px;
     text-align: center;
-    color:#977702
+    color: #977702;
 }
 
 #explore-features h3 {
-        text-align: center;
-
+    text-align: center;
 }
 
 #explore-features p {
-    
     width: 33%;
     display: inline;
-
 }
 
 #feature-one {
     padding: 30px;
-    
 }
 
 #feature-three {
     padding: 30px;
-    
 }
 
 #feature-two {
     padding: 30px;
-    
 }
 /* Register Form */
 
@@ -266,131 +233,116 @@ display: flex;
     display: flex;
 }
 
-
 #register-form {
-    
-        
-        width: 400px;
-        padding: 10px;
-        border: 2px solid #977702;
-        margin: 30px;        
-
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #977702;
+    margin: 30px;
 }
 #register-form h2 {
-         margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .form-input {
-   
     color: #050505;
     width: 380px;
-    margin:5px 0 20px 0;
+    margin: 5px 0 20px 0;
     border: 2px solid #977702;
     display: flex;
     padding: 10px;
-    
 }
 .form-input:hover {
     border-color: #977702;
 }
 
-
 #register {
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
-        border:2px solid #ffffff;
-        font-size: 110%;
-        border-radius: 15px;
-        cursor: pointer;
-        background-color: #977702;
-        padding: 15px 32px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        text-transform: uppercase;
-        margin-top: 20px;
-        
-             
-    }
-        
-  #register:hover {background-color: #cea307}
-  
-  #register:active {
-    background-color:#977702;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-  #register-extra {
-      display: flex;
-      flex-direction: column;
-  }
-  #cardiff-street-register img {
-    max-width: 100%;
-    margin: 30px;
-    
-}
-
-  #register-benefits {
-      
-      padding: 30px;
-
-  }
-
-  #register-benefits ul {
-    font-size: 1rem;
-    list-style-image: url(./assets/images/logo-main-bullet.png);
-    padding: 20px;
-    list-style-position: inside;
-
-  }
- 
-
-  /* Contact Form */
-
-  #contact-main {
-      width: 100%;
-      display: flex;
-      flex-direction:row ;
-      
-  }
-
-  #contact-form {
-    margin: 30px ;
-    color: #fff;
-    border: 2px solid #977702;
-    width:400px;
-    padding: 10px;
-    
-    
-
-  }
-
-  #contact-form input {
-      width: 38git 0px;
-  }
-
-  #contact-form h2 {
-        margin-bottom: 30px;
-}
-#send {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
-    border:2px solid #ffffff;
+    border: 2px solid #ffffff;
     font-size: 110%;
     border-radius: 15px;
     cursor: pointer;
     background-color: #977702;
     padding: 15px 32px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-transform: uppercase;
     margin-top: 20px;
-    
 }
 
-#send:hover {background-color: #cea307}
-  
-  #send:active {
-    background-color:#977702;
+#register:hover {
+    background-color: #cea307;
+}
+
+#register:active {
+    background-color: #977702;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#register-extra {
+    display: flex;
+    flex-direction: column;
+}
+#cardiff-street-register img {
+    max-width: 100%;
+    margin: 30px;
+}
+
+#register-benefits {
+    padding: 30px;
+}
+
+#register-benefits ul {
+    font-size: 1rem;
+    list-style-image: url(/assets/images/logo-main-bullet.png);
+    padding: 20px;
+    list-style-position: inside;
+}
+
+/* Contact Form */
+
+#contact-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-form {
+    margin: 30px;
+    color: #fff;
+    border: 2px solid #977702;
+    width: 400px;
+    padding: 10px;
+}
+
+#contact-form input {
+    width: 38git 0px;
+}
+
+#contact-form h2 {
+    margin-bottom: 30px;
+}
+#send {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    font-size: 110%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #977702;
+    padding: 15px 32px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#send:hover {
+    background-color: #cea307;
+}
+
+#send:active {
+    background-color: #977702;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -400,127 +352,115 @@ display: flex;
     flex-direction: column;
 }
 #contact-image {
-        width: 100%;
-        margin: 20px 20px 20px 30px;
-    }
-    
-    #contact-details {
-        border: 2px solid #977702;
-        margin: 0 20px 20px 30px;
-        padding: 20px;
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-   
+    width: 100%;
+    margin: 20px 20px 20px 30px;
+}
+
+#contact-details {
+    border: 2px solid #977702;
+    margin: 0 20px 20px 30px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 #ced-contact {
-    
     padding: 10px;
-
 }
 #mjb-contact {
-    
     padding: 10px;
 }
 
 #contact-details img {
-    height:50px;
+    height: 50px;
     width: 50px;
     border-radius: 50%;
     padding: 5px;
 }
 
-
 #image-street {
-    
     width: 100%;
     margin-top: 30px;
-    
-  
 }
 #image-street-two {
-width: 100%;
-margin: 0 20px 10px 30px;
+    width: 100%;
+    margin: 0 20px 10px 30px;
 }
 
 /* Contact us Form Map */
 
-  #map-contact {
-     
-      width: 100%;
-      margin: 30px;
-  }
-  #map-image {
+#map-contact {
+    width: 100%;
+    margin: 30px;
+}
+#map-image {
     height: 300px;
     width: 100%;
     padding-top: 50px;
-
-  }
-
-  /* Gallery Page */
-
-  #gallery {
-      margin: 30px;
-  }
-
-  .carousel-caption  {
-    background: #6c757d7a;
-  }
-
-  /* Media Queries */
-
- @media screen and (max-width:1000px) {
-     #register-main {
-        display: flex;
-        flex-direction: column;
-        width:100%
-     }
-
-     #register-form {
-         margin: 0 auto;
-         margin-top: 75px;
-     }
-
-     #contact-main {
-        display: flex;
-        flex-direction: column;  
-     } 
-#menu {    
-    font-size: 1.1rem;
-    letter-spacing: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
- }
- header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-#explore-main {
-    display: flex;
-    flex-direction: column;
-}
-#contact-form {
-    margin: 0 auto; }
 }
 
+/* Gallery Page */
 
-@media screen and (max-width: 450px) {
-
-#register-form {
-    margin: 10px 5px 0 30px ;
-    
-}
-#contact-form {
-    margin: 10px 5px 0 30px ;
-}
-#cardiff-street-register img {
-    max-width: 400px;
+#gallery {
     margin: 30px;
 }
+
+.carousel-caption {
+    background: #6c757d7a;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+    #register-main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #register-form {
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    #contact-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu {
+        font-size: 1.1rem;
+        letter-spacing: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #explore-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #register-form {
+        margin: 10px 5px 0 30px;
+    }
+    #contact-form {
+        margin: 10px 5px 0 30px;
+    }
+    #cardiff-street-register img {
+        max-width: 400px;
+        margin: 30px;
+    }
 }
