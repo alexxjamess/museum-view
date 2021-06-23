@@ -67,9 +67,8 @@ In future models of the website the user would come back to log into the website
 
 - __Contact Us Page__
 
--
-
-
+- The contact us page will allow the user to contact the webiste via a contact form if they have any questions about the project that they couldnt find the answers to. This page will also incluse some direct contact inforamation to the builder and developer incase there is a need for an emergency contact. There is a google map emebedded at the bottom of this page so the user can easily use this to see the exact location of the project.
+<img src="assets/images/readme-images/museum-view-contact-page.jpg" alt="museum view contact us page">
 
 ### Features Left to Implement
 
@@ -77,7 +76,7 @@ In future models of the website the user would come back to log into the website
 - A general progress bar could be added to the website.
 
 ## Testing 
-
+Please see wireframe-images folder within the images folder for images of wireframes completed at the start of the project.
 Please see [testing.md](/testing.md) for Testing
 
 
@@ -106,6 +105,7 @@ The live link can be found here - https://alexxjamess.github.io/museum-view/
 - The map was obtained through [google](https://www.google.com/maps?ll=51.485058,-3.175836&z=16&t=m&hl=en&gl=GB&mapclient=embed&cid=1162786141127752078)
 - the animated zoom was based of previous work completed on the love running project.
 - The bullet points on the register page where based on a video found on [Youtube](https://www.youtube.com/watch?v=w7xKQ63DnDk)
+- The submit and register button were created use ideas from [W3Schools](https://www.w3schools.com/css/css3_buttons.asp)
 ### Media
 
 - The photos used on the gallery were from [Pexels](https://www.pexels.com/search/luxury%20apartment%20building/) these will be replaced with images of the actual project once they become available.

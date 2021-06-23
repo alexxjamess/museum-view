@@ -337,7 +337,7 @@ display: flex;
 
   #register-benefits ul {
     font-size: 1rem;
-    list-style-image: url(/assets/images/logo-main-bullet.png);
+    list-style-image: url(./assets/images/logo-main-bullet.png);
     padding: 20px;
     list-style-position: inside;
 
