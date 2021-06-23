@@ -6,6 +6,14 @@ The user will enter the website if looking to find information on project or if 
 
 <img src="./assets/images/readme-images/museum-view-devices.jpg" alt="Museum View Snapshot on Muliptle Devices">
 
+## User Stories
+A user would use the website if they seen an ad or drove past the development and seen the hoarding and wanted to find out more information on the project. The woudld come to the home page and click explore which would lead them to explore page which contains some text which has more information and includes links to drawings. A video showing a tour of the a potential apartment. They could then chose to register their interest 
+
+A user would use the website if they wanted to contact the builder or developer of the project if they potenially had a complaint or wanted similar projected completed or just wanted a quote they could easily do this by clicking on the contact us page where they could choose to fill out a form or the direct details for the developer and builer are shown if their is an emergency.
+
+A user would use the webiste if they already had the information they wanted and wanted to express the interest in renting or buying a property they could simply do this by clicking the register buttom and fill out the form.
+
+In future models of the website the user would come back to log into the website to get updates and see progress of the development.
 ## Features 
 
 - __Navigation Bar__
