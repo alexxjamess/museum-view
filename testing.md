@@ -24,7 +24,22 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 - Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
 - Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
 - Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
+### Explore
+#### Navigation Bar
+- Explore, Gallery, Register and Contact Us Page all work correctly taking user to correct page without opening a new window.
+#### Logo
+- Image when clicked works correctly taking user to home/index page.
+#### Links In Paragraph
+- Links to architectual drawings opens dropbox link in new window as expected
+- link to register page opens page without opening new window as expected 
+#### Embedded Youtube Video
+- Video Plays while embedded once clicked and starts from 1:00 minute mark as expected
+- Video opens in new window once clicked on youtube logo or title as expcted
 
+#### Social Media Buttons 
+- Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
+- Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
+- Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
 ## Validator Testing 
 
 ### HTML - Index
