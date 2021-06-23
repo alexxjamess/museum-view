@@ -4,7 +4,7 @@ Museum View is a site that will be used to inform and register potential buyers 
 
 The user will enter the website if looking to find information on project or if they would like to register their interest in the project and would like to buy or rent one of the properties they can do this easilly by completing a short form which is titled register interest.
 
-![Responsice Mockup]( Museum View Pages Image on Multiple Devices)
+<img src="./assets/images/readme-images/museum-view-devices.jpg" alt="Museum View Snapshot on Muliptle Devices">
 
 ## Features 
 
