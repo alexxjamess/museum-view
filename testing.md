@@ -1,4 +1,4 @@
-## Testing
+# Testing
 
 I have tested both HTML and CSS for all pages and shown the results below.
 
@@ -8,33 +8,51 @@ Other issues I came across was when making the website responsive for mobile dev
 
 I also had some legibility issues with the colour scheme I had chosen, I used [Color Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=977702&secondary.color=004793&secondary.text.color=92cc00) to find this out and then opted for a white colour text to make it more legible.
 
+## Features Testing 
+### Index
+#### Navigation Bar
+- Explore, Gallery, Register and Contact Us Page all work correctly taking user to correct page without opening a new window.
+#### Logo
+- Image when clicked works correctly taking user to home/index page.
+#### Main Image
+- Logo has zoom in amination as expected
+#### Explore Button 
+- Explore Button Works correctly taking user to explore page without opening a new window.
+- Explore Button Changes shade when hovering over as expected.
+- Explore Button Gives animation of Depressing once clicked as expexted.
+#### Social Media Buttons 
+- Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
+- Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
+- Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
 
+## Validator Testing 
 
-### Validator Testing 
-
-- HTML - Index
-  - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The index page had the following errors which were reticfied. 
+### HTML - Index
+  - After running through [W3C validator](vl). The index page had the following errors which were reticfied. 
   <img src="assets/images/readme-images/text1-index-Page.jpg" alt="image of issues in html index page">
-  - No errors were returned when passing through the official on Test 2 [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official on Test 2 [W3C validator](https://validator.w3.org/l)
 
 
-- HTML - Explore
- - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The following errors were shown . 
+### HTML - Explore
+ - After running through [W3C validator](https://validator.w3.org/l). The following errors were shown . 
   <img src="assets/images/readme-images/test1-explore.jpg" alt="image of issues in html explore page">
-  - On test 2 all issuues were recitifed other than those shown below, the error states that there is nothing in the heading however there is a font awesome text item which the validator isnt recognising.  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - On test 2 all issuues were recitifed other than those shown below, the error states that there is nothing in the heading however there is a font awesome text item which the validator isnt recognising.  [W3C validator](https://validator.w3.org/l)
   <img src="assets/images/readme-images/test2-explore.jpg" alt="image of remaining issues in html explore page">
 
-  HTML - Gallery
-  After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html).There were no errors found.
+### HTML - Gallery
+  After running through [W3C validator](https://validator.w3.org/).There were no errors found.
 
-- HTML - Register
- - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The following errors were shown . 
-  <img src="assets/images/readme-images/test1-explore.jpg" alt="image of issues in html explore page">
-  - On test 2 all issuues were recitifed other than those shown below, the error states that there is nothing in the heading however there is a font awesome text item which the validator isnt recognising.  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  <img src="assets/images/readme-images/test2-explore.jpg" alt="image of remaining issues in html explore page">
+### HTML - Register
+ - After running through [W3C validator](https://validator.w3.org/). The following errors were shown . 
+  <img src="assets/images/readme-images/test1-register.jpg" alt="image of issues in html resgister page">
+  - Error 1 was caused due to a button function being used by removing the button and changing it to an input this resolved this issue. Also there was a typing mistake on the word 'submit'
+  - Erros 2-3 was caused to due the h2 and p element being inside the ul these were moved outside the ul and error was fixed.
+  - Error 4 was a simple double closing tag, this was removed.
+  - Erorr 5 was due to for attribute and element id being different. These were both changed to be the same 'tel'
+  - On test 2 all issuues were recitifed 
 
-  - HTML - Contact Us
- - After running through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html). The following errors were shown . 
+### HTML - Contact Us
+ - After running through [W3C validator](https://validator.w3.org/). The following errors were shown . 
   <img src="assets/images/readme-images/test1-contact.jpg" alt="image of issues in html contact us page">
   - Error 1 was caused due to a button function being used by removing the button and changing it to an input this resolved this issue. Also there was a typing mistake on the word 'submit'
   - Errors 2-9 where caused froma span element being used, changing this to a div elemenet resolved these issues.
@@ -42,11 +60,10 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
   - Error 10 was resolved by adding a Find Us Heading above the map.
   - Erorr 12 was due to for attribute and element id being different. These were both changed to be the same 'tel'
 
-  - On test 2 all issuues were recitifed other than those shown below, the error states that there is nothing in the heading however there is a font awesome text item which the validator isnt recognising.  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  <img src="assets/images/readme-images/test2-explore.jpg" alt="image of remaining issues in html explore page">
- CSS - 
+  - On test 2 all issuues were recitifed
+### CSS - 
   - Only one error was found when running me style.css through the validator [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) This error was caused due to typing being entered in the code rather than the terminal. This had now been removed completely as this code was not needed.
 <img src="assets/images/readme-images/test1-css.jpg" alt="image of issues in css">
+
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
