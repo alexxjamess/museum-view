@@ -54,6 +54,27 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 - Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
 - Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
 - Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
+### Register 
+#### Navigation Bar
+- Explore, Gallery, Register and Contact Us Page all work correctly taking user to correct page without opening a new window.
+#### Logo
+- Image when clicked works correctly taking user to home/index page.
+#### Register Form 
+- Title Field Contains Populated Dropdown as expected
+- Name Field
+
+
+- Register Button Changes shade when hovering over as expected.
+- Register Button Gives animation of Depressing once clicked as expexted.
+
+<img src="./assets/images/readme-images/test-validation-name-register.jpg" alt="image of validation on name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-lname-register.jpg" alt="image of validation on last name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-email-register.jpg" alt="image of validation on email field register form" height="300px"><img src="./assets/images/readme-images/test-validation-contact-register.jpg" alt="image of validation on contact no field register form" height="300px">><img src="./assets/images/readme-images/test-validation-position-register.jpg" alt="image of validation on position field register form" height="300px">><img src="./assets/images/readme-images/test-validation-agree-register.jpg" alt="image of validation on agree field register form" height="300px">
+
+#### Social Media Buttons 
+
+- Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
+- Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
+- Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
+
 ## Validator Testing 
 
 ### HTML - Index
