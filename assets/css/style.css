@@ -175,7 +175,9 @@ footer {
     margin: 30px;
     padding: 10px;
 }
-
+#explore-text h2 {
+    padding-bottom: 20px;
+}
 #explore-text p {
     font-size: large;
     text-align: justify;
@@ -193,12 +195,17 @@ footer {
     margin-top: 2.5%;
     width: 100vw;
     padding: 10px;
+   
+}
+#explore-video h2 {
+    padding-bottom:20px;
 }
 
 /* Features */
 
 #explore-features {
     display: flex;
+    padding-top: 50px ;
 }
 
 #explore-features h2 {
