@@ -465,7 +465,7 @@ footer {
         margin: 10px 5px 0 10px;
     }
     #cardiff-street-register img {
-        max-width: 400px;
+        max-width: 380px;
         margin: 10px 5px 0 10px;
     }
 
@@ -473,5 +473,13 @@ footer {
         display: flex;
         padding-top: 50px;
         flex-direction: column;
+    }
+    
+    #explore-video iframe {
+        width: 380px;
+    }
+
+    #contact-image #contact-details #contact-image-2 #map-contact {
+        width:380px;
     }
 }

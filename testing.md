@@ -154,6 +154,7 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 <img src="assets/images/readme-images/test1-css.jpg" alt="image of issues in css">
 
 ### Responsiveness 
+- Using Google Dev Tools to test the website or a range of devices using the ipad and pixel2 as the main marker i was able to get most items responsives, to tidy up any elements I then used some media queries based on two different screen widths to fix any other issues.
 
 
 ### Unfixed Bugs
