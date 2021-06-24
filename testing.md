@@ -61,19 +61,37 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 - Image when clicked works correctly taking user to home/index page.
 #### Register Form 
 - Title Field Contains Populated Dropdown as expected
-- Name Field
-
-
+- First Name Field works as expected error shown when not entered see image 1 below
+- Last Name Field works as expected error shown when not entered see image 2 below
+- Email Field works as expected error shown when not entered error also shown when a valid email entered see image 3 below
+- Contact No field works as expected error shown when not entered also limit on number of digit that can be entered.
+- Current Position Field containts populated drop down as expected
+- Agreeing to terms and conditon also shows an error when not click- there is currently no link to the terms and conditions as these are not available.
 - Register Button Changes shade when hovering over as expected.
 - Register Button Gives animation of Depressing once clicked as expexted.
+- Once clicking register it will currently show the data this is for examination purposes only. On completeing there will be a thankyou message and data will be sent to a spreadsheet.
 
-<img src="./assets/images/readme-images/test-validation-name-register.jpg" alt="image of validation on name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-lname-register.jpg" alt="image of validation on last name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-email-register.jpg" alt="image of validation on email field register form" height="300px"><img src="./assets/images/readme-images/test-validation-contact-register.jpg" alt="image of validation on contact no field register form" height="300px">><img src="./assets/images/readme-images/test-validation-position-register.jpg" alt="image of validation on position field register form" height="300px">><img src="./assets/images/readme-images/test-validation-agree-register.jpg" alt="image of validation on agree field register form" height="300px">
+
+<img src="./assets/images/readme-images/test-validation-name-register.jpg" alt="image of validation on name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-lname-register.jpg" alt="image of validation on last name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-email-register.jpg" alt="image of validation on email field register form" height="300px"><img src="./assets/images/readme-images/test-validation-contact-register.jpg" alt="image of validation on contact no field register form" height="300px">><img src="./assets/images/readme-images/test-validation-position-register.jpg" alt="image of validation on position field register form" height="300px"><img src="./assets/images/readme-images/test-validation-agree-register.jpg" alt="image of validation on agree field register form" height="300px"><img src="./assets/images/readme-images/registerform-info.jpg" alt="image of validation on agree field register form" height="300px">
 
 #### Social Media Buttons 
 
 - Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
 - Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
 - Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
+
+### Contact Us
+#### Navigation Bar
+- Explore, Gallery, Register and Contact Us Page all work correctly taking user to correct page without opening a new window.
+#### Logo
+- Image when clicked works correctly taking user to home/index page.
+
+#### Social Media Buttons 
+
+- Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
+- Instagram Icon takes user to Instagram home page in new window as expected as musuem view Instagram account not active. 
+- Twitter Icon takes user to Twitter home page in new window as expected as musuem view Twitter account not active. 
+
 
 ## Validator Testing 
 
