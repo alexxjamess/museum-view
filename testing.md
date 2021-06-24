@@ -153,6 +153,9 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
   - Only one error was found when running me style.css through the validator [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) This error was caused due to typing being entered in the code rather than the terminal. This had now been removed completely as this code was not needed.
 <img src="assets/images/readme-images/test1-css.jpg" alt="image of issues in css">
 
+### Responsiveness 
+
+
 ### Unfixed Bugs
 - There is still a bug on the register page where the bullet points on the benefits section just show a standard bullet point and not an image of the museum. I have been unable to fix this issue. The bullet points did work but stopped unexpectedly
 
