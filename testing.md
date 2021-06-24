@@ -74,6 +74,9 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 
 <img src="./assets/images/readme-images/test-validation-name-register.jpg" alt="image of validation on name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-lname-register.jpg" alt="image of validation on last name field register form" height="300px"><img src="./assets/images/readme-images/test-validation-email-register.jpg" alt="image of validation on email field register form" height="300px"><img src="./assets/images/readme-images/test-validation-contact-register.jpg" alt="image of validation on contact no field register form" height="300px">><img src="./assets/images/readme-images/test-validation-position-register.jpg" alt="image of validation on position field register form" height="300px"><img src="./assets/images/readme-images/test-validation-agree-register.jpg" alt="image of validation on agree field register form" height="300px"><img src="./assets/images/readme-images/registerform-info.jpg" alt="image of validation on agree field register form" height="300px">
 
+#### Benfits
+- The benefits bullet points have an error where the image is not being shown so a standard bullet point is shown instead.
+
 #### Social Media Buttons 
 
 - Facebook Icon takes user to facebook home page in new window as expected as musuem view facebook account not active. 
@@ -85,6 +88,23 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 - Explore, Gallery, Register and Contact Us Page all work correctly taking user to correct page without opening a new window.
 #### Logo
 - Image when clicked works correctly taking user to home/index page.
+#### Contact Us Form 
+- Title Field Contains Populated Dropdown as expected
+- First Name Field works as expected error shown when not entered 
+- Last Name Field works as expected error shown when not entered 
+- Email Field works as expected error shown when not entered error also shown when a valid email entered see image 3 belo
+- Contact No field works as expected error shown when not entered also limit on number of digit that can be entered.
+- Message Field - Error found when running this test as there was validation to make it a required field. This has no been resolved.
+- Send Button Changes shade when hovering over as expected.
+- Send Button Gives animation of Depressing once clicked as expexted.
+- Once clicking Send it will currently show the data this is for examination purposes only. On completeing there will be a thankyou message and data will be sent to a spreadsheet
+
+#### Contact Details
+- The image next to Developer details currently just loops as the developer website is not currently live.
+- The image next to the main contractor details works as expected taking the user to the contractors website opening a new window.
+
+#### Map
+- The embedded map is interactive and opens in new window as expected when clicking to view larger map.
 
 #### Social Media Buttons 
 
@@ -134,4 +154,5 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 <img src="assets/images/readme-images/test1-css.jpg" alt="image of issues in css">
 
 ### Unfixed Bugs
+- There is still a bug on the register page where the bullet points on the benefits section just show a standard bullet point and not an image of the museum. I have been unable to fix this issue. The bullet points did work but stopped unexpectedly
 
