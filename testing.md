@@ -159,3 +159,5 @@ I also had some legibility issues with the colour scheme I had chosen, I used [C
 ### Unfixed Bugs
 - There is still a bug on the register page where the bullet points on the benefits section just show a standard bullet point and not an image of the museum. I have been unable to fix this issue. The bullet points did work but stopped unexpectedly
 
+<img src="./assets/images/readme-images/test-benefits.jpg" alt="image of ibenefits bullet points image" height="300px">
+

@@ -358,12 +358,12 @@ footer {
 }
 #contact-image {
     width: 100%;
-    margin: 20px 20px 20px 30px;
+    margin: 10px 5px 0 10px;;
 }
 
 #contact-details {
     border: 2px solid #977702;
-    margin: 0 20px 20px 30px;
+    margin: 10px 5px 0 10px;
     padding: 20px;
     display: flex;
     width: 100%;
@@ -391,14 +391,14 @@ footer {
 }
 #image-street-two {
     width: 100%;
-    margin: 0 20px 10px 30px;
+    margin: 10px 5px 0 10px;
 }
 
 /* Contact us Form Map */
 
 #map-contact {
     width: 100%;
-    margin: 30px;
+    margin: 10px 5px 0 10px;
 }
 #map-image {
     height: 300px;
@@ -459,13 +459,19 @@ footer {
 
 @media screen and (max-width: 450px) {
     #register-form {
-        margin: 10px 5px 0 30px;
+        margin: 10px 5px 0 10px;
     }
     #contact-form {
-        margin: 10px 5px 0 30px;
+        margin: 10px 5px 0 10px;
     }
     #cardiff-street-register img {
         max-width: 400px;
-        margin: 30px;
+        margin: 10px 5px 0 10px;
+    }
+
+    #explore-features {
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
     }
 }
